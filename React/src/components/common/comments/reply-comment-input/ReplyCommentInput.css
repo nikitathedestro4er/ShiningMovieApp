@@ -1,0 +1,28 @@
+.replyUserImageAndInput{
+    display: flex;
+    padding-top: 20px;
+}
+
+.replyInputArea {
+    display: flex;
+}
+
+
+.replyCommentInput {
+    width: 850px;
+}
+
+.replyCommentSubmitBtn {
+    margin-left: 835px;
+}
+
+
+.replyUserImage{
+    margin-right: 15px;
+}
+
+.replyUserImageHolder{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

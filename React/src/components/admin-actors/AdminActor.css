@@ -1,0 +1,74 @@
+.saving-btn {
+  margin-top: 40px;
+}
+
+
+
+.cardInput-img-top {
+  max-width: 30%;
+  margin: 30px;
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+
+.input-group{
+  display: flex;
+  width: 952;
+}
+
+.input-group > #newcolumn {
+  flex-grow: 2
+}
+
+.input-group > #addButton {
+  flex-grow: 1
+}
+
+.panel {
+  background-color: #1266F1;
+}
+
+.firstRadius {
+  border-radius: 40px 0 0 40px;
+}
+
+.lastRadius {
+  border-radius: 0 40px 40px 0;
+}
+
+.delete{
+  top: 50%;
+}
+
+.id{
+  width: 75px;
+}
+
+.name{
+  width: 220px;
+}
+
+.genre{
+  width: 100px;
+}
+
+.director{
+  width: 150px;
+}
+
+.year{
+  width: 100px;
+}
+
+.rating{
+  width: 100px;
+}
+
+.updated{
+  width: 120px;
+}

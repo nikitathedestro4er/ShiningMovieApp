@@ -1,0 +1,10 @@
+.holderdirectorimage {
+    height: 200px;
+    width: 135px;
+    border-radius: 70px ;
+}
+
+.directordisplay {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

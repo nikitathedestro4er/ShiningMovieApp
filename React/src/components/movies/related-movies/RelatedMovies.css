@@ -1,0 +1,24 @@
+.flexmovie {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.holdermovie {
+  margin-right: 200px;
+  width: 30px;
+  height: 30px;
+  
+}
+
+.movie {
+    margin-top: 200px;
+}
+
+.holderimagemovie {
+    max-height: 200px;
+    max-width: 200px;
+
+}

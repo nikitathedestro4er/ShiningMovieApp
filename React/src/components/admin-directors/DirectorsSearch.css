@@ -1,0 +1,9 @@
+.directorsearch {
+  display: flex;
+  margin: 10px 0;
+}
+
+.directorsearch-input {
+    padding: 5px;
+    width: 100%;
+  }

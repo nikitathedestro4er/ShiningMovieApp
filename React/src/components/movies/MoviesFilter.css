@@ -1,0 +1,226 @@
+.filterButton {
+  position: relative;
+  border:none;
+  height: 34px;
+  width: 70px;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  color: crimson;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+
+
+
+.filterButton:hover {
+  position: relative;
+  border:none;
+  height: 34px;
+  width: 70px;
+  background-color: crimson;
+  border: none;
+  color: black;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  
+}
+
+.filterOpenButton {
+  position: relative;
+  border:none;
+  height: 34px;
+  width: 70px;
+  background-color: crimson;
+  border: none;
+  color: black;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+
+
+
+
+.container-filter{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 240px;
+  height: 280px;
+  right: 20px;
+  top: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 100px rgb(255, 0, 51);
+}
+
+
+
+
+.minYear{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 200px;
+  display: inline-flex;
+}
+
+.maxYear{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 200px;
+  display: inline-flex; 
+}
+
+.genreDiv{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 200px;
+  display: inline-flex;  
+}
+
+.directorDiv{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 200px;
+  display: inline-flex;
+}
+
+
+
+
+.filter-input::placeholder {
+  color: black;
+}
+
+.filter-input {
+  text-indent:20px;
+  background-color: crimson;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border: black;
+  box-shadow: 0 0 10px #000000;
+}
+
+
+
+.filter-input:focus {
+  outline: none !important;
+  box-shadow: 0 0 20px #ff0000;
+}
+
+
+.field {
+  min-width: 200px;
+  height: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+
+
+.search {
+  width: 95%;
+  margin-top: 20px;
+}
+
+.closeImg{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: 90px;
+  top: 27px;
+}
+
+.closeImg:hover{
+  transition: all .2s ease-in-out; 
+  transform: scale(1.3); 
+  position: absolute;
+  right: 90px;
+  top: 27px;
+}
+
+.closeIcon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  
+    
+    
+}
+
+.search-input::placeholder {
+  color: crimson;
+}
+
+.search-input {
+  text-indent:20px;
+  background-color: rgb(70, 5, 18);
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border: black;
+  box-shadow: 0 0 10px #000000;
+  padding: 5px;
+  min-width: 900px;
+}
+
+
+
+.search-input:focus {
+  outline: none !important;
+  box-shadow: 0 0 30px #ff0000;
+  background-color: crimson;
+  color: black;
+  border: none !important;
+}
+
+.search-input:focus::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.search-input:hover {
+  outline: none !important;
+  box-shadow: 0 0 30px #ff0000;
+  transition: all .5s ease-in-out; 
+  background-color: crimson;
+  color: black;
+}
+
+.search-input:hover::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.search-input-filter-changed::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.search-input-filter-changed {
+  text-indent:20px;
+  background-color: crimson;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border: black;
+  box-shadow: 0 0 30px #ff0000;
+  padding: 5px;
+  min-width: 900px;
+}
+

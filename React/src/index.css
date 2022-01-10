@@ -1,0 +1,17 @@
+#app {
+  margin: 0 auto;
+  max-width: 1000px;
+  
+}
+
+html {
+  min-height:100%;    
+}
+
+
+
+
+
+nav {
+  padding: 20px 0 20px 0;
+}

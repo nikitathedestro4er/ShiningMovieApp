@@ -1,0 +1,23 @@
+syntax = "proto3";
+ 
+option csharp_namespace = "AuthenticationApi";
+ 
+package auth;
+
+import "google/protobuf/wrappers.proto";
+
+service Auth {
+  
+  rpc ValidateToken (TokenDTO) returns (ResultDTO);
+}
+ 
+message TokenDTO {
+  string token = 1;
+}
+ 
+message ResultDTO {
+  google.protobuf.StringValue userName = 1;
+  google.protobuf.StringValue email = 2;
+  google.protobuf.StringValue role = 3;
+  bool isValidationSuccess = 4;
+}

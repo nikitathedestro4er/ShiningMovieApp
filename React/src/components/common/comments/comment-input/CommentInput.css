@@ -1,0 +1,18 @@
+.userImageAndInput{
+    display: flex;
+}
+
+
+
+.inputArea {
+    display: flex;
+}
+
+
+.commentInput {
+    width: 905px;
+}
+
+.commentSubmit{
+    margin-left: 840px;
+}

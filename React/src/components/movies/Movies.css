@@ -1,0 +1,22 @@
+
+
+.movieList {
+  margin-left: 50px;
+}
+
+.flexPosters {
+  margin-top: 70px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.flexMovie {
+  width: 300px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+.Poster {
+  height: 400px;
+}

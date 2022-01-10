@@ -1,0 +1,22 @@
+
+.flexactor {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.holderactor {
+  margin-right: 200px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.holderimage {
+    height: 200px;
+    width: 135px;
+    border-radius: 70px ;
+}

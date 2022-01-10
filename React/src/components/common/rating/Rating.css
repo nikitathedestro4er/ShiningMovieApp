@@ -1,0 +1,14 @@
+.ratingDiv{
+    display: flex;
+}
+
+.ratingP{
+  margin-left: 20px;
+  margin-top: 35px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2.5em;
+  color: crimson;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,9 @@
+.moviesearch {
+  display: flex;
+  margin: 10px 0;
+}
+
+.moviesearch-input {
+    padding: 5px;
+    width: 100%;
+  }

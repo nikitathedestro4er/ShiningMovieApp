@@ -1,0 +1,351 @@
+
+
+.logo {
+  position: absolute;
+  width: 170px;
+  left: 450px;
+  top: 25px;
+
+}
+
+
+.header {
+  height: 40px; 
+  border-radius: 10px;
+  margin-top : 65px;
+  margin-bottom: 50px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 20px;
+  
+}
+
+
+
+.headerLinks{
+  display: flex;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+
+.moviesLink{
+  position: absolute;
+  top: 35px;
+  left: 620px;
+}
+
+
+.actorsLink{
+  position: absolute;
+  top: 35px;
+  left: 820px;
+}
+
+
+
+.directorsLink{
+  position: absolute;
+  top: 35px;
+  left: 1030px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #f1d0d7, 0 0 1.5rem #dc143c,
+       0.2rem 0.1rem 1rem #dc143c,
+      0 -0.5rem 2rem #dc143c, 0 0.5rem 3rem #dc143c;
+  }
+  28%,
+  33% {
+    color: #db5050;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: rgb(100, 9, 27);
+    text-shadow: none;
+  }
+}
+
+.navLink--active .flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.navLink--active .fast-flicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #f1d0d7, 0 0 1.5rem #dc143c,
+      -0.2rem 0.1rem 1rem #dc143c, 0.2rem 0.1rem 1rem #dc143c,
+      0 -0.5rem 2rem #dc143c, 0 0.5rem 3rem #dc143c;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navLink {  
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 4.5em;
+  color: rgb(100, 9, 27);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+
+.navLink:hover {
+  font-size: 4.7em;
+  transition: all .3s ease-in-out; 
+  text-shadow: 0 0 40px crimson;
+  color: crimson;
+}
+
+.navLink--active {
+  background-image: radial-gradient(
+    ellipse 50% 35% at 50% 50%,
+    #6b1839,
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  color: crimson;
+  text-shadow: 0 0 0.6rem #f1d0d7, 0 0 1.5rem #dc143c,
+      -0.2rem 0.1rem 1rem #dc143c, 0.2rem 0.1rem 1rem #dc143c,
+      0 -0.5rem 2rem #dc143c, 0 0.5rem 3rem #dc143c;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+
+
+.loginText{
+  font-size: 80%;
+  top: 77px;
+  left: 1300px;
+  color: crimson;
+  position: absolute;
+}
+
+label.switch {  
+  text-align: left;
+  width: 66px;
+  height: calc(66px / 2);
+  border-radius:30px;    
+  background-color:crimson;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-left: 740px;
+  margin-top: -35px;
+}
+
+label.switch > span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+label.switch > input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+} 
+
+label.switch > span:before, label.switch > span:after {
+  content: "";
+  cursor: pointer;
+  position: absolute;
+}
+
+
+
+label.switch > span {
+  border-radius: 30px;    
+}
+
+label.switch > span:before {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  transition: opacity .2s ease-out .1s, transform .2s ease-out .1s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+label.switch > span:after{
+  top: 50%;
+  z-index: 3;
+  transition: transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+  width: calc(66px / 2);
+  height: calc(66px / 2);
+  transform: translate3d(0, -50%, 0);
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);  
+}
+
+
+label.switch > input[type="checkbox"]:checked ~ span:before {
+  transform: scale(0);
+  opacity: .7;
+}
+
+label.switch > input[type="checkbox"]:checked ~ span:after {
+  transform: translate3d(100%, -50%, 0);
+}

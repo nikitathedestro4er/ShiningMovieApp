@@ -1,0 +1,9 @@
+.actorsearch {
+  display: flex;
+  margin: 10px 0;
+}
+
+.actorsearch-input {
+    padding: 5px;
+    width: 100%;
+  }

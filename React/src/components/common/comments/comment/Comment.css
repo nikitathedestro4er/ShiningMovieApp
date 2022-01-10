@@ -1,0 +1,37 @@
+.comment{
+    display: flex;
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.commentContent{
+    width: 780px;
+    display: flex;
+}
+
+.userImage{
+    margin-right: 20px;
+}
+
+.userNameAndDate{
+    display: flex;
+}
+
+.userName{
+    margin-right: 5px;
+}
+
+.userImageHolder{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.commentReaction{
+    display: flex;
+}
+
+.deleteAndEdit{
+    margin-left: 80px;
+}
+

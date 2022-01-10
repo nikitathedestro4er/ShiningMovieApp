@@ -1,0 +1,38 @@
+.moviepagination > li > a
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(100, 9, 27);
+    color: crimson;
+    
+}
+
+.moviepagination > li > a:focus,
+.moviepagination > li > a:hover,
+.moviepagination> li > span:focus,
+.moviepagination > li > span:hover
+{
+    color: black;
+    background-color: crimson;
+    box-shadow: 0 0 20px #ff0000;
+    border: none;
+}
+
+.moviepagination > .active > a
+{
+    color: black !important;
+    background-color: crimson !Important;
+    border: none;
+    box-shadow: 0 0 20px #ff0000;
+    text-decoration-color: black;
+}
+
+
+
+.moviepagination > .disabled > a
+{
+    color: crimson !Important;
+    background-color: rgb(20, 20, 20) !Important;
+
+}
