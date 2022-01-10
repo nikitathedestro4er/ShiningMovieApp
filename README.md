@@ -1,2 +1,1 @@
-# Internship for Nikita Pinchuk
 
